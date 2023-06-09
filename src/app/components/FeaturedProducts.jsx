@@ -8,7 +8,7 @@ export default function FeatureProducts() {
           <span className="absolute -bottom-5 left-[37.5%]  h-1 w-1/4 bg-[#ac7c5c]"></span>
         </h1>
       </div>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row">
         <FeaturedProductCard></FeaturedProductCard>
         <FeaturedProductCard></FeaturedProductCard>
         <FeaturedProductCard></FeaturedProductCard>

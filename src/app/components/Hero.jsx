@@ -16,14 +16,14 @@ export default function Hero() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="px-8 py-3 font-regular rounded bg-[#ac7c5c] text-[#e7cda6] tracking-wider hover:bg-[#e7cda6] hover:text-black duration-300"
+              className="px-8 py-3 font-regular rounded bg-darkBrown text-lightBrown tracking-wider hover:bg-lightBrown hover:text-black duration-300"
             >
               SHOP NOW
             </a>
           </div>
         </div>
         <div className="relative flex items-center justify-center h-3/5 w-2/5">
-          <div className="shape bg-[#ac7c5c] rounded-md absolute left-10 bottom-0 z-0" />
+          <div className="shape bg-darkBrown rounded-md absolute left-10 bottom-0 z-0" />
           <img
             src="/table.jpg"
             alt=""

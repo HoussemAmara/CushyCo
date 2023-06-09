@@ -21,7 +21,7 @@ export default function Navbar() {
                 Cushy
               </span>
               <span
-                className={`${greatVibes.className} self-center font-Cambria text-4xl font-Cambria whitespace-nowrap  dark:text-[#ac7c5c]`}
+                className={`${greatVibes.className} self-center font-Cambria text-4xl font-Cambria whitespace-nowrap  dark:text-darkBrown`}
               >
                 Co
               </span>
@@ -35,7 +35,7 @@ export default function Navbar() {
                   className="block text-xl text-gray-900 pl-2"
                   icon={faCartShopping}
                 />
-                <span className="absolute top-0 right-0 -mt-1 -mr-1 h-5 w-5 flex items-center justify-center bg-[#ac7c5c] text-white rounded-full text-xs">
+                <span className="absolute top-0 right-0 -mt-1 -mr-1 h-5 w-5 flex items-center justify-center bg-darkBrown text-white rounded-full text-xs">
                   0
                 </span>
               </a>
@@ -60,7 +60,7 @@ export default function Navbar() {
                     className=" block py-2 pl-3 pr-4 text-gray-900 font-normal text-base relative"
                   >
                     Home
-                    <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#ac7c5c] rounded-full opacity-0 transition-opacity duration-300"></span>
+                    <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-darkBrown rounded-full opacity-0 transition-opacity duration-300"></span>
                   </a>
                 </li>
                 <li>
@@ -69,7 +69,7 @@ export default function Navbar() {
                     className=" block py-2 pl-3 pr-4 text-gray-900 font-normal text-base relative"
                   >
                     About
-                    <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#ac7c5c] rounded-full opacity-0 transition-opacity duration-300"></span>
+                    <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-darkBrown rounded-full opacity-0 transition-opacity duration-300"></span>
                   </a>
                 </li>
                 <li>
@@ -78,7 +78,7 @@ export default function Navbar() {
                     className=" block py-2 pl-3 pr-4 text-gray-900 font-normal text-base relative"
                   >
                     Products
-                    <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#ac7c5c] rounded-full opacity-0 transition-opacity duration-300"></span>
+                    <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-darkBrown rounded-full opacity-0 transition-opacity duration-300"></span>
                   </a>
                 </li>
               </ul>
