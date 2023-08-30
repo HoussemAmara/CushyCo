@@ -15,6 +15,7 @@ import Path from "./Path.jsx";
 import ProductsGallery from "./ProductsGallery.jsx";
 import SortBar from "./SortBar.jsx";
 import SubscribeBtn from "./SubscribeBtn.jsx";
+import Newsletter from "./Newsletter.jsx";
 export {
   AllProductBtn,
   CartBtn,
@@ -33,4 +34,5 @@ export {
   ProductsGallery,
   SortBar,
   SubscribeBtn,
+  Newsletter,
 };

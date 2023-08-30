@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Hero, FeaturedProducts } from "./components";
+import { Hero, FeaturedProducts, CustomFurniture, Newsletter } from "./components";
 export const metadata: Metadata = {
   title: "CoshyCo",
   openGraph: {
@@ -11,6 +11,8 @@ export default function Home() {
     <>
       <Hero></Hero>
       <FeaturedProducts></FeaturedProducts>
+      <CustomFurniture></CustomFurniture>
+      <Newsletter></Newsletter>
     </>
   );
 }
